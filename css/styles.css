@@ -63,6 +63,31 @@ body {
     padding: 40px 20px;
     text-align: center;
 }
+table {
+    width: 80%; /* Adjust the width as needed */
+    margin-left: auto; /* Center the table */
+    margin-right: auto;
+    border-collapse: collapse; /* Ensures there are no gaps between borders */
+    text-align: left; /* Aligns text to the left within each cell */
+    margin-bottom: 20px; /* Adds some space below the table */
+}
+.centered-heading {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light grey border for each cell */
+    padding: 8px; /* Adds padding inside each cell */
+}
+
+th {
+    background-color: #f2f2f2; /* Light grey background for header cells */
+    color: #333; /* Dark text color for contrast */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra-striping for rows */
+}
 
 /* Styling for bullet points/lists */
 ul {
