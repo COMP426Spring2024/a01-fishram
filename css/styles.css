@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:wght@700&family=Roboto:wght@400&display=swap');
+
+body {
+    font-family: 'Lora', serif; /* Maintained updated font for the body */
+    font-size: large; /* Adjusted for better readability */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header h1 {
+    font-family: 'Merriweather', serif;
+    color: #333;
+    text-align: center; /* Centering the title */
+    font-size: 48px; /* Keeping the increased font size */
+    margin: 20px 0; /* Adjusted spacing */
+}
+
+.site-nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.site-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.site-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px; /* Increased font size for readability */
+}
+
+.site-nav ul li a:hover {
+    color: #baa4a0; /* Subtle color change on hover */
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eee;
+}
+
+.hero-image {
+    max-width: 50%; /* Adjusted to prevent the image from taking up too much space */
+    height: auto;
+    border-radius: 8px; /* Softening the edges for a more modern look */
+    margin: 20px auto; /* Centering the image */
+}
+
+.hero-text {
+    font-size: 20px;
+    max-width: 800px; /* Ensuring text is not overly wide */
+}
+
+.introduction, .featured-story {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Styling for bullet points/lists */
+ul {
+    list-style-type: circle; /* Adding style to bullet points */
+    text-align: left; /* Aligning text to the left for readability */
+    margin: 20px auto; /* Centering the list */
+    max-width: 800px; /* Restricting the max width for better appearance */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
